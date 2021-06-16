@@ -1,0 +1,13 @@
+package com.alayon.springbank.user.cmd.api;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class UserCommandApplicationTest {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

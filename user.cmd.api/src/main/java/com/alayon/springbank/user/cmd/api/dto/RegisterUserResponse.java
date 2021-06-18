@@ -4,7 +4,8 @@ public class RegisterUserResponse extends BaseResponse{
 
     private String id;
 
-    public RegisterUserResponse(final String message) {
+    public RegisterUserResponse(final String id, final String message) {
         super(message);
+        this.id = id;
     }
 }

@@ -6,12 +6,14 @@ import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
 @RestController
 @RequestMapping(path = "/api/v1/updateUser")
+@PreAuthorize("hasAuthority('WRITE_PRIVILEGE')")
 public class UpdateUserController {
 
     private final CommandGateway commandGateway;

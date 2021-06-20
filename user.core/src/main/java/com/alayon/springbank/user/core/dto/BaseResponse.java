@@ -1,4 +1,4 @@
-package com.alayon.springbank.user.cmd.api.dto;
+package com.alayon.springbank.user.core.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

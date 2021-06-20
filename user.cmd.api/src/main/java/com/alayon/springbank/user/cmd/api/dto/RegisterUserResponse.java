@@ -1,6 +1,8 @@
 package com.alayon.springbank.user.cmd.api.dto;
 
-public class RegisterUserResponse extends BaseResponse{
+import com.alayon.springbank.user.core.dto.BaseResponse;
+
+public class RegisterUserResponse extends BaseResponse {
 
     private String id;
 

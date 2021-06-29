@@ -18,7 +18,7 @@ public class BankAccount {
 
     @Id
     private String id;
-    private String accountHolder;
+    private String accountHolderId;
     private Date creationDate;
     private AccountType accountType;
     private double balance;

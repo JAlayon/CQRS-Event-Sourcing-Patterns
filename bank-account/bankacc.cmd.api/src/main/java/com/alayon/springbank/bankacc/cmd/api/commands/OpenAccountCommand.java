@@ -12,7 +12,7 @@ public class OpenAccountCommand {
     @TargetAggregateIdentifier
     private String id;
 
-    private String account;
+    private String accountHolderId;
 
     private AccountType accountType;
 

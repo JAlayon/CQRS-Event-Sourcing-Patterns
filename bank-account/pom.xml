@@ -11,7 +11,7 @@
 
     <modules>
         <module>bankacc.cmd.api</module>
-        <module>bankacc.core.api</module>
+        <module>bankacc.core</module>
         <module>bankacc.query.api</module>
     </modules>
 

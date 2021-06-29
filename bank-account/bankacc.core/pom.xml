@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.alayon.springbank</groupId>
-	<artifactId>bankacc.core.api</artifactId>
+	<artifactId>bankacc.core</artifactId>
 	<version>1.0.0</version>
-	<name>bankacc.core.api</name>
+	<name>bankacc.core</name>
 	<description>Bank Account Core Project</description>
 
 	<properties>

@@ -14,10 +14,10 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
 @Import(AxonConfig.class)
-public class BankAccCommandQueryApplication {
+public class BankAccCommandApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BankAccCommandQueryApplication.class, args);
+		SpringApplication.run(BankAccCommandApplication.class, args);
 	}
 
 }
